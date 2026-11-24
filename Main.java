@@ -12,7 +12,7 @@ public class Main {
  System.out.print("Enter weight and profit: "); 
  weight[i] = sc.nextInt(); 
  profit[i] = sc.nextLong(); 
- if (weight[i] < 0) { 
+ if (weight[i] <= 0) { 
  System.out.println("Invalid weight.");  return; 
  } 
  } 
